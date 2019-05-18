@@ -1,0 +1,44 @@
+html, body {
+    padding-left: 5px;
+    height: 100vh;
+}
+.wrapper {
+    min-height: auto;
+    height: 100%;
+}
+.border-dark {
+    border-width: 3px!important;
+}
+.aling-s-e {
+    align-self: end;
+}
+.bg-primary {
+    background-color: #2aa8db!important;
+}
+.bg-yellow {
+    background-color: #feef0c;
+}
+.bg-green {
+    background-color: #b5e51d;
+}
+.bg-blue {
+    background-color: #8eeefc;
+}
+.bg-pink {
+    background-color: #fb8bfb;
+}
+.bg-red {
+    background-color: #ff8989;
+}
+.bg-orange {
+    background-color: #fdca10;
+}
+.pointer {
+    cursor: pointer;
+}
+.w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    width: -o-fit-content;
+}

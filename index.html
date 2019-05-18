@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title>Strange task</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/main-style.css">
+    </head>
+    <body class="pt-3">
+        <div class="wrapper container-fluid mr-2 border-top border-left border-dark">
+            <div class="row justify-content-around mb-5">
+                <div class="col-2 border border-dark text-center bg-primary py-1">
+                    (U1)
+                    <input id="u1" name="u1" type="text" class="w-75" placeholder="U1">
+                </div>
+                <div class="col-2 border border-dark text-center bg-primary py-1">
+                    (U1.5)
+                    <input id="u1-5" name="u1.5" type="text" class="w-75" placeholder="U1.5">
+                </div>
+                <div class="col-2 border border-dark text-center bg-primary py-1">
+                    (U2)
+                    <input id="u2a" name="u2a" type="text" class="w-25" placeholder="U2a">
+                    <input id="u2b" name="u2b" type="text" class="w-25" placeholder="U2b">
+                    <input id="u2c" name="u2c" type="text" class="w-25" placeholder="U2c">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7 px-0">
+                    <div class="container-fluid">
+                        <div class="row flex-column">
+                            <div class="col-12 bg-green mb-3 py-2 border border-dark text-center">
+                                (U3)
+                                <input id="u3" name="u3" type="text" class="w-75" placeholder="U3">
+                            </div>
+                            <div class="col-4 bg-blue mb-3 py-3 border border-dark text-center">
+                                U4
+                                <input id="u4" name="u4" type="text" class="w-75" placeholder="U4">
+                            </div>
+                            <div class="col-4 bg-pink mb-3 py-2 border border-dark text-center">
+                                U5
+                                <input id="u5" name="u5" type="text" class="w-75" placeholder="U5">
+                            </div>
+                            <div class="col-4 mb-3 d-flex px-0">
+                                <div class="col-5 bg-orange py-3 border border-dark text-center">
+                                    (U6.1)
+                                    <input id="u6-1" name="u6.1" type="text" class="w-75" placeholder="U6.1">
+                                </div>
+                                <div class="col-5 offset-2  py-3 bg-orange border border-dark text-center">
+                                    (U6.2)
+                                    <input id="u6-2" name="u6.2" type="text" class="w-75" placeholder="U6.2">
+                                </div>
+                            </div>
+                            <div class="col-4 my-3 d-flex px-0">
+                                <div class="col-5 bg-red py-3 border border-dark text-center">
+                                    (U7.1)
+                                    <input id="u7-1" name="u7.1" type="text" class="w-75" placeholder="U7.1">
+                                </div>
+                                <div class="col-5 offset-2  py-3 bg-red border border-dark text-center">
+                                    (U7.2)
+                                    <input id="u7.2" name="u7.2" type="text" class="w-75" placeholder="U7.2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 d-flex aling-s-e">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-8 offset-2 d-flex flex-column my-3 align-items-center">
+                                <div id="check-btn" class="w-fit text-center bg-yellow mb-3 py-2 px-3 pointer">CHECK</div>
+                                <div id="end-values-container" class="w-100 text-center bg-yellow px-3 py-1 border border-dark font-weight-bold">
+                                    Конечное значение
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Необходимые библиоткеки для бутстрапа и основного кода-->
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <!--Основной код-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
