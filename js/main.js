@@ -1,4 +1,4 @@
-;(function(){ //class Main
+﻿;(function(){ //class Main
 /* 
 constructor
     
@@ -128,7 +128,7 @@ public check_sum
         return res_ar;
     }
     
-//----------------------------------------------------private methods/properties
+//----------------------------------------------------public methods/properties
     window.Main = Main;
 })();
 
